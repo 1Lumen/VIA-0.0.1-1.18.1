@@ -79,7 +79,7 @@ public class Parrotfish extends FishEntity implements IAnimatable {
     }
 
     public static DefaultAttributeContainer.Builder createParrotfishEntityAttributes() {
-        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 6.0f).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.12f);
+        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 6.0f).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 1.0f);
     }
 
     @Override
@@ -134,7 +134,7 @@ public class Parrotfish extends FishEntity implements IAnimatable {
         private boolean wantsCorals;
 
         public EatCoralGoal(Parrotfish fish) {
-            super(fish, 1f, 20);
+            super(fish, 1.0f, 20);
             this.fish = fish;
         }
 
