@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "via:parrotfish"
+  },
+  "result": "via:cooked_parrotfish",
+  "experience": 0.35,
+  "cookingtime": 100
+}
